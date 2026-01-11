@@ -9,7 +9,7 @@ header {
     background-color: #111;
     padding: 30px;
     text-align: center; 
-    border-bottom: 2px solid #2aff2a;
+    border-bottom: 2px solid #bfff2a;
 }
 
 header h1 {
@@ -42,18 +42,32 @@ h2 {
     margin-top: 0;
 }
 
-.build a {
+.buildlatest a {
     display: inline-block;
     margin-top: 10px;
     color: #000;
-    background-color: #2aff2a;
+    background-color: #bfff2a;
     padding: 8px 15px;
     text-decoration: none;
     font-weight: bold;
 }
 
-.build a:hover {
-    background-color: #1ecc1e;
+.buildlatest a:hover {
+    background-color: #c3cc1e;
+}
+
+.buildprevious a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #000;
+    background-color: #bfff2a;
+    padding: 8px 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.buildprevious a:hover {
+    background-color: #c3cc1e;
 }
 
 footer {
